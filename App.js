@@ -1,4 +1,4 @@
-// App.js
+
 
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
@@ -15,7 +15,7 @@ const Stack = createStackNavigator();
 
 const ProductsStack = () => (
   <Stack.Navigator>
-    <Stack.Screen name="products" component={Products} />
+    <Stack.Screen name="products" component={Products} options={{headerShown : false}} />
     
   </Stack.Navigator>
 );
@@ -23,8 +23,8 @@ const ProductsStack = () => (
 
 const CheckoutStack = () => (
   <Stack.Navigator>
-    <Stack.Screen name="checkout" component={Checkout} />
-    <Stack.Screen name="OrderSuccessful" component={Order} />
+    <Stack.Screen name="checkout" component={Checkout} options={{headerShown : false}}/>
+    <Stack.Screen name="OrderSuccessful" component={Order} options={{headerShown : false}}/>
     
   </Stack.Navigator>
 );

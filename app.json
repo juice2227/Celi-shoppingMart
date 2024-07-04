@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "practice",
-    "slug": "snack-bc400ae2-315b-4359-84f4-416b7f5e5baa",
+    "slug": "celi-shopppingmart",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.celine2227.celishopppingmart"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bafbcf8a-6fd8-4224-b0e6-984d3759fe32"
+      }
+    },
+    "owner": "celine2227"
   }
 }
